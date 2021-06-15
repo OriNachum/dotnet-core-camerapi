@@ -4,5 +4,6 @@ namespace dotnet.core.camerapi
 {
     public interface ICameraPi
     {
+        void CaptureImage(ImageParameters imageParameters);
     }
 }
