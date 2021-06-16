@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OAFfLBXupJJFI/pPS8gWtKCaCAZ0bgVla0rYEQmn+sEooVriDS59ZZG5IlhVoG/xSRvVJmyq+wW87FW4/uesvQ==",
+  "dgSpecHash": "c8EEpK534VAOQtcD2IPlej26TPp6iYZ8pJZXJH9riXxUNqUxPFQFUJq1VsPa3OnYfjvluEzYt1rMmv+08YU8YQ==",
   "success": true,
-  "projectFilePath": "/home/pi/Git/dotnet-core-camerapi/dotnet-core-camerapi.csproj",
+  "projectFilePath": "C:\\Git\\dotnet-core-camerapi\\dotnet-core-camerapi.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
