@@ -8,5 +8,5 @@ namespace dotnet.core.camerapi.Enums
         bmp,
         gif,
         png,
-    } 
+    }
 }

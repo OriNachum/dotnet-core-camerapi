@@ -31,13 +31,13 @@ namespace dotnet.core.camerapi.Models
         ///
         public long? Timelapse { get; set; }
 
-        public int Sharpness { get; set; }
+        public int? Sharpness { get; set; }
 
-        public int Contrast { get; set; }
+        public int? Contrast { get; set; }
 
-        public int Brightness { get; set; }
+        public int? Brightness { get; set; }
 
-        public int Saturation { get; set; }
+        public int? Saturation { get; set; }
 
         public bool CaptureIso { get; set; }
 
@@ -48,7 +48,7 @@ namespace dotnet.core.camerapi.Models
 
         public bool VerticalFlip { get; set; }
 
-        public int ShutterSpeed { get; set; }
+        public int? ShutterSpeed { get; set; }
 
         #nullable enable
         public eEncoding? Encoding { get; set; }
