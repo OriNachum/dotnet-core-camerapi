@@ -7,9 +7,9 @@ namespace dotnet.core.camerapi.Impl.Builders
     {
         public string Build(ImageParameters imageParameters)
         {
-            if (imageParameters.Height.HasValue)
+            if (imageParameters.VideoStabilization)
             {
-                return $"--height {imageParameters.Height}";
+                return $"--vstab";
             }
 
             return string.Empty;

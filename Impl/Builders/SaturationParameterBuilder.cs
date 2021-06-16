@@ -9,7 +9,7 @@ namespace dotnet.core.camerapi.Impl.Builders
         {
             if (imageParameters.Height.HasValue)
             {
-                return $"--height {imageParameters.Height}";
+                return $"--saturation {imageParameters.Height}";
             }
 
             return string.Empty;

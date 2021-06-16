@@ -7,9 +7,9 @@ namespace dotnet.core.camerapi.Impl.Builders
     {
         public string Build(ImageParameters imageParameters)
         {
-            if (imageParameters.Height.HasValue)
+            if (!string.IsNullOrWhiteSpace(imageParameters.Output))
             {
-                return $"--height {imageParameters.Height}";
+                return $"--output {imageParameters.Output}";
             }
 
             return string.Empty;

@@ -7,9 +7,9 @@ namespace dotnet.core.camerapi.Impl.Builders
     {
         public string Build(ImageParameters imageParameters)
         {
-            if (imageParameters.Height.HasValue)
+            if (imageParameters.MeteringMode.HasValue)
             {
-                return $"--height {imageParameters.Height}";
+                return $"--metering {imageParameters.MeteringMode}";
             }
 
             return string.Empty;

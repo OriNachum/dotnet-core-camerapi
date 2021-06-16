@@ -7,9 +7,9 @@ namespace dotnet.core.camerapi.Impl.Builders
     {
         public string Build(ImageParameters imageParameters)
         {
-            if (imageParameters.VerticalFlip)
+            if (imageParameters.Timeout.HasValue)
             {
-                return $"--vflip";
+                return $"--timeout {imageParameters.Timeout}";
             }
 
             return string.Empty;
