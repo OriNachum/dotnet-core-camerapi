@@ -9,7 +9,7 @@ namespace dotnet.core.camerapi.Models
         /// Time (in ms) before takes picture and shuts down (if not specified, set to 5s)
         ///
         public long? Timeout { get; set; }
-        
+
         public int? Width { get; set; }
 
         public int? Height { get; set; }
@@ -34,13 +34,13 @@ namespace dotnet.core.camerapi.Models
         public int Sharpness { get; set; }
 
         public int Contrast { get; set; }
-        
+
         public int Brightness { get; set; }
 
         public int Saturation { get; set; }
 
         public bool CaptureIso { get; set; }
-        
+
         public bool VideoStabilization { get; set; }
 
 
@@ -60,7 +60,7 @@ namespace dotnet.core.camerapi.Models
 
         public eImageEffect? ImageEffect { get; set; }
         public eMetering? MeteringMode { get; set; }
-        
+
         public eRotation? ImageRotation { get; set; }
         #nullable disable
     }
