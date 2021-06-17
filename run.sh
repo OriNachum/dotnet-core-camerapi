@@ -1,0 +1,1 @@
+./Camerapi.Demo/bin/Debug/net5.0/linux-arm/Camerapi.Demo
