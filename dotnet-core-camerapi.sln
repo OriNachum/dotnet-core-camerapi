@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet.Core.Camerapi", "Dotnet.Core.Camerapi/Dotnet.Core.Camerapi.csproj", "{A80DD8BA-980C-4947-99BF-B86C5A23F33B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotnet.Core.Camerapi", "Dotnet.Core.Camerapi\Dotnet.Core.Camerapi.csproj", "{A80DD8BA-980C-4947-99BF-B86C5A23F33B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camerapi.Demo", "Camerapi.Demo/Camerapi.Demo.csproj", "{A80DD8BA-980C-4947-99BF-B86C5A23F33B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Camerapi.Demo", "Camerapi.Demo\Camerapi.Demo.csproj", "{F8B69EBA-7ECC-4582-84B8-73B982BCC6C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +17,10 @@ Global
 		{A80DD8BA-980C-4947-99BF-B86C5A23F33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A80DD8BA-980C-4947-99BF-B86C5A23F33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A80DD8BA-980C-4947-99BF-B86C5A23F33B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B69EBA-7ECC-4582-84B8-73B982BCC6C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B69EBA-7ECC-4582-84B8-73B982BCC6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B69EBA-7ECC-4582-84B8-73B982BCC6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B69EBA-7ECC-4582-84B8-73B982BCC6C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
