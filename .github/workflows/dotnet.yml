@@ -29,7 +29,7 @@ jobs:
       uses: SiqiLu/dotnet-bump-version@1.0.2
       with:
         # Version files to bump version. You can use Glob pattern string (like "**/*.csproj") or Glob patterns array json string (like "["**/*.csproj", ".version", "**/*.version.json"]"). Patterns supported by Globby are supported.Leading ! changes the meaning of an include pattern to exclude.
-        version_files: Dotnet.Core.Camerapi/Dotnet.Core.Camerapi.csproj # optional, default is **/*.csproj
+        version_files: # Dotnet.Core.Camerapi/Dotnet.Core.Camerapi.csproj # optional, default is **/*.csproj
         # the github token to push changes
         github_token: # optional
 
