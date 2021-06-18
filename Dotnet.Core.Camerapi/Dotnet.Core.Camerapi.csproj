@@ -3,6 +3,11 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>Dotnet.Core.Camerapi</RootNamespace>
+
+    <PackageId>Camerapi.Sample</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>OriNachum</Authors>
+    <Company>nachos</Company>
   </PropertyGroup>
 
 </Project>
