@@ -23,7 +23,7 @@ namespace Dotnet.Core.Camerapi.Impl
             using (var proc = new Process())
             {
                 proc.StartInfo.FileName = "/bin/bash";
-                proc.StartInfo.Arguments = $"-c \" {command} {lineParameters} \"";
+                proc.StartInfo.Arguments = $"-c \" {command} --nopreview {lineParameters} \"";
                 proc.StartInfo.UseShellExecute = false;
                 proc.StartInfo.RedirectStandardOutput = true;
                 proc.StartInfo.RedirectStandardError = true;
